@@ -48,6 +48,55 @@ venv.bak/
 *.rda
 *.RData
 
+# UK Biobank specific data files
+*.bgz
+*.tbi
+*.csi
+*.bgen.bgi
+*.bgen.sample
+*.gen
+*.sample
+*.ped
+*.map
+*.hap
+*.legend
+*.haps
+*.sample
+*.gen.gz
+*.haps.gz
+*.legend.gz
+*.sample.gz
+
+# Genomic data files
+*.bam
+*.cram
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.gtf
+*.gff
+*.gff3
+*.bed.gz
+*.bim.gz
+*.fam.gz
+*.vcf.gz
+*.bcf.gz
+
+# Large data directories
+data/
+raw_data/
+processed_data/
+intermediate_data/
+temp_data/
+cache/
+downloads/
+
 # Results and outputs
 results/
 outputs/
@@ -66,4 +115,11 @@ logs/
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# DNAnexus specific
+.dnanexus_config/
+*.dxlog
+
+# Conda environment
+ukb_env/ 
