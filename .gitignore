@@ -88,10 +88,11 @@ venv.bak/
 *.vcf.gz
 *.bcf.gz
 
-# Large data directories
+# Large data directories (but allow README files)
 data/
 raw_data/
 processed_data/
+!processed_data/**/README.md
 intermediate_data/
 temp_data/
 cache/
