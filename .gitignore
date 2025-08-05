@@ -98,6 +98,15 @@ temp_data/
 cache/
 downloads/
 
+# Tools and binaries
+tools/
+*.zip
+*.tar.gz
+*.tar.bz2
+*.exe
+*.bin
+*.app
+
 # Results and outputs
 results/
 outputs/
